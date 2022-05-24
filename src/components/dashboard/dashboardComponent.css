@@ -1,0 +1,178 @@
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../../fonts//Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(../../fonts//Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../../fonts/Poppins-Regular.ttf);
+}
+
+.dashboard-header{
+
+  color:  #232323;
+  font-size: 24px;
+  font-family: Poppins-SemiBold;
+  font-weight: 600;
+  margin: 31px 0px 0px 24px;
+}
+
+.overview-gallery-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-overview {
+
+  margin: 24px 0px 0px 24px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 688px;
+  height: 405px;
+  width: 50%;
+}
+
+
+.project-header-container{
+  height: 77px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Poppins-Medium;
+  width: 100%;
+}
+
+.project-header{
+  font-size: 21px;
+  margin: 31.36px 0px 31px 24px;
+  width: 50%;
+}
+
+.downloadable-format {
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.ms-excel-icon {
+  margin-left: 35px;
+}
+
+.pdf-icon {
+  margin-left: 12px;
+}
+
+.divider-3 {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.project-gallery {
+  height: 405px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 40%;
+  margin: 24px 24px 0px 24px;
+}
+
+.gallery-header-container {
+  height: 77px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Poppins-Medium;
+}
+
+.project-gallery-header{
+  width: 50%;
+  font-size: 21px;
+  margin-left: 24px;
+}
+
+.dropdown-container{
+  width: 50%;
+  justify-content: end;
+  display: flex;
+  justify-content: end;
+  margin-right: 22px;
+}
+
+.dropdown-lists{
+  height: 31px;
+  width: 113px;
+  font-size: 12px;
+  font-family: Poppins-Regular;
+  text-align: center;
+  margin-left: 109.5px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: solid rgba(147,149,152,0.2);
+}
+
+.divider-4 {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.project-body {
+  display: flex;
+  flex-direction: row;
+  margin: 26px 24px 65px 0px;
+  width: 100%;
+}
+
+.piechart-container {
+  width: 50%;
+  height: 100%;
+}
+
+.table-container{
+  display: flex;
+  margin-right: 24px;
+}
+
+.table-parameters {
+  width: 327px;
+  height: 236px;
+}
+
+.table-header-data{
+  font-family: Poppins-Medium;
+  font-size: 16px;
+}
+
+.oval {
+  margin-right: 12px;
+}
+
+.head1{
+  text-align: left;
+}
+
+.head2{
+ text-align: right;
+}
+
+tbody{
+  font-size: 16px;
+  font-family: Poppins-Regular;
+}
+
+.second-data {
+  display: flex;
+  justify-content: flex-end;
+  row-gap: 10px;
+}

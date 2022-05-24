@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../../fonts/Poppins-SemiBold.ttf);
+}
+
+.parent-container{
+  width: 260px;
+  height: 1677px;
+  background-color: #04162C;
+  position: static;
+}
+
+.tring-logo{
+  height: 118px;
+}
+
+.Child-container{
+  width: 260px;
+  height: 60px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.web-logo{
+  margin: 35px 69.96px 48.06px 40px;
+  height: 34.94px;
+  width: 150.04px;
+}
+
+.svg-icon{
+  margin: 18px 16px 18px 40px;
+}
+
+/* .svg-icon-test{
+  margin: 18px 16px 18px 40px;
+  fill: #5BBC2E;
+} */
+
+.left-rail-text {
+
+  display: flex;
+  align-items: center;
+  color: #969AA1;
+  font-size: 14px;
+  font-family: Poppins-SemiBold;
+}
+
+.select-left-bar {
+  width: 4px;
+  height: 60px;
+  background-color: #5BBC2E;
+}
+
+.left-rail-text-active {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Poppins-SemiBold;
+}
+
+.Child-container-active{
+  width: 260px;
+  height: 60px;
+  display: flex;
+  margin-bottom: 24px;
+  background-color: rgba(255,255,255,0.05);
+}
+
