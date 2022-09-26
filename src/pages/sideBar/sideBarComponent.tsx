@@ -76,7 +76,7 @@ return(
       sideBarPath.includes('members') ? 
       <div className="Child-container-active">
         <div className="select-left-bar"></div>
-        <img src={memberActive} alt="" className="svg-icon-test"/>
+        <img src={memberActive} alt="" className="svg-icon"/>
         <span className="left-rail-text-active">MEMBERS</span>
       </div> :
 
